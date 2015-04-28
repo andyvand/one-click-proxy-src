@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. --><RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>jid0-zXo3XFGyiDalgkeEO4UYJTUwo2I@jetpack</em:id>
+    <em:version>0.56</em:version>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+    <em:unpack>false</em:unpack>
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>19.0</em:minVersion>
+        <em:maxVersion>20.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Front End MetaData -->
+    <em:name>One Click Proxy</em:name>
+    <em:description>The easiest and simplest way ever to browse the web anonymously!
+
+No need to setup, configurations, subscriptions, nothing, just activate it with one click and it&amp;#39;s done, you&amp;#39;re browsing the web using a random proxy from any country in the world.
+
+And very important, NO ADS, it doesn&amp;#39;t uses a web proxy with ads like other addons, it uses HTTP and Socks proxies dynamically obtained from our proxy list.
+
+Easiest usage than any other plugin/addon/extension. You need to know only two things:
+*Over the One Click Proxy icon(at the bottom right of your screen, on Add-On bar):
+  - Left click: Activate and Deactivate anonymous browsing.
+  - Right click: Change the proxy that you&amp;#39;re using.
+  - On gear icon(at the right) left click to show/hide navigation toolbar button.
+
+*Over the One Click Proxy toolbar button(at the top right of your screen, on navigation bar):
+  - There&amp;#39;s one button to activate/deactivate and another one to change the proxy IP address that you want to use.</em:description>
+    <em:creator>zzenitt</em:creator>
+    
+    
+    
+  </Description>
+</RDF>
